@@ -1,6 +1,6 @@
 package kr.or.connect.main;
 
-import config.ApplicationConfig;
+import kr.or.connect.config.ApplicationConfig;
 
 import java.sql.Connection;
 import java.sql.SQLException;

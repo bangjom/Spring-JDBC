@@ -1,4 +1,4 @@
-package config;
+package kr.or.connect.config;
 
 import javax.sql.DataSource;
 import org.apache.commons.dbcp2.BasicDataSource;
