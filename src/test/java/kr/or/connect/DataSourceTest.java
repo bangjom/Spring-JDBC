@@ -2,7 +2,9 @@ package kr.or.connect;
 
 import java.sql.Connection;
 import javax.sql.DataSource;
+
 import kr.or.connect.config.ApplicationConfig;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +19,7 @@ public class DataSourceTest {
     DataSource dataSource;
 
     @Test
-    public void connectTest() throws Exception{
+    public void connectTest() throws Exception {
         //when
         Connection conn = dataSource.getConnection();
 
